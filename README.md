@@ -1,4 +1,4 @@
-# rnr: Instant Project Launcher
+# rnr (runner): Instant Scripts Launcher
 
 Say goodbye to managing multiple package managers and remembering unique run scripts for each project type. With `rnr`, you’re just one command away from launching your project, whether it's JavaScript, TypeScript, Next.js, Vite, React Native, Express.js, Nuxt.js, Vue.js, or more. Future support for additional applications, like Python, is coming soon!
 

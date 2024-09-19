@@ -5,11 +5,13 @@ import { logger } from "../utils/logger.js";
 import { RunMode } from "../types.js";
 
 const program = new Command();
-const version = "1.0.0";
+const version = "1.0.1";
 program
   .name("rnr")
-  .description("Launcher for your JavaScript/TypeScript projects with ease")
-  .version("1.0.0");
+  .description(
+    "Scripts launcher for your JavaScript/TypeScript projects with ease",
+  )
+  .version("1.0.1");
 
 program
   .argument("[mode]", "run mode (dev, prod, test, or build)", "dev")

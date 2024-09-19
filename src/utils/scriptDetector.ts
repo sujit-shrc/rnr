@@ -13,7 +13,8 @@ export async function detectScripts(
     const detectedScripts = packageJson.scripts || {};
 
     const scripts: Scripts = {
-      dev: detectedScripts.dev || detectedScripts.start,
+      dev:
+        detectedScripts.dev || detectedScripts.start || detectedScripts.serve,
       prod:
         detectedScripts.prod ||
         detectedScripts.start ||
